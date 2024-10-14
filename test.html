@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/avatar-101.png" alt="Chitti thalli kaja" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Chitti thalli kaja">Chitti thalli kaja</h1>
+
+          <p class="title">Software Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn data-state="show">
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:chittithallikaja@gmail.com" class="contact-link">chittithallikaja@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+1 (213) 352-2795</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2006-03-24">March 24, 2006</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Razole, East Godavari ,Andhra pradesh,India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/chittithalli-kaja-a097802a4/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+          
+
+          <li class="social-item">
+            <a href="https://gitlab.com/Chitti333" class="social-link">
+              <ion-icon name="logo-gitlab"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/Chitti333" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="mailto:chittithallikaja@gmail.com" class="social-link">
+              <ion-icon name="logo-gmail"></ion-icon>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+     
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">     
+
+          <p>A motivated Computer Science student specializing in Artificial Intelligence and Data Science, with a strong foundation in
+            Python, object-oriented programming, and SQL. Seeking an internship to apply analytical and problem-solving skills in a
+            collaborative environment. Eager to contribute knowledge of relational databases and coding proficiency while gaining
+            hands-on experience in the software development life cycle. Focused on developing both technical and professional skills to
+            prepare for a future career in software engineering.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">My projects</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/0.png
+                " alt="design icon" width="40">
+              </div>
+
+              <a href="https://gitlab.com/codhers2/zombie-war">
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Zombie War</h4>
+
+                <p class="service-item-text">
+                Collaborated in developing  2D Zombie Survival game using pygame,Tiled.
+                </p>
+                <a href="https://gitlab.com/codhers2/zombie-war">Gitlab link</a>
+              </div>
+              </a>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/project-2.png" alt="Web development icon" width="40">
+              </div>
+              <a href="https://gitlab.com/Chitti333/the-recovery-spot">
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">The Recovery Spot</h4>
+              </a>
+
+                <p class="service-item-text">
+                  Developed an interactive website that enables users to report lost items and post found items, creating a community-driven
+platform for item recovery.<a href="https://reportlost.netlify.app/">Live view</a> <a href="https://gitlab.com/Chitti333/the-recovery-spot">Gitlab Link</a>
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/project-3.png" alt="mobile app icon" width="40" >
+              </div>
+            <a href="https://gitlab.com/Chitti333/bmi-calculator">
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">BMI - Calculator</h4>
+
+                <p class="service-item-text">
+                  Designed and developed a user-friendly website to calculate Body Mass Index (BMI) based on height and weight inputs which give immediate feedback.
+                </p><a href="https://gitlab.com/Chitti333/bmi-calculator">Gitlab Link</a><a href="https://bmi-calculator-stay-healthy.netlify.app/">Live view</a>
+              </div>
+            </a>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photography</h4>
+
+                <p class="service-item-text">
+                  I make high-quality photos of any category at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">My Skills</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/py-logo-removebg-preview.png" alt="Python logo" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Python</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Proficient in Python programming with a strong foundation in libraries such as NumPy, Pandas, Flask, and Pygame.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/java-logo-removebg-preview.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Java</h4>
+
+        <div class="testimonials-text" data-testimonials-text>
+          <p>
+            Solid understanding of Object-Oriented Programming (OOP) with Java, including experience in data structures and algorithms.
+          </p>
+        </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/git-logo.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Git ,gitlab & GitHub</h4>
+
+        <div class="testimonials-text" data-testimonials-text>
+          <p>
+            Experienced with version control using Git and GitHub for collaboration, code tracking, and repository management.
+          </p>
+        </div>
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/web-dev-logo.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Web Development</h4>
+
+        <div class="testimonials-text" data-testimonials-text>
+          <p>
+            Skilled in building web applications using Flask, and experienced with front-end development using HTML, CSS, and JavaScript.
+          </p>
+        </div>
+
+        <li class="testimonials-item">
+          <div class="content-card" data-testimonials-item>
+
+            <figure class="testimonials-avatar-box">
+              <img src="./assets/images/linux-windows.png" alt="Henry william" width="60" data-testimonials-avatar>
+            </figure>
+    
+            <h4 class="h4 testimonials-item-title" data-testimonials-title>Linux & Windows</h4>
+    
+            <div class="testimonials-text" data-testimonials-text>
+              <p>
+                Proficient in both Linux and Windows operating systems, with experience in using command-line tools and development environments.
+              </p>
+            </div>
+    
+          </div>
+        </li>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Certifications</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <h3 class="h3 clients-title">Basics of Python</h3>
+              <a href="https://drive.google.com/file/d/1Ct1Q8uTVE5PI-FfUvm4qsfE6Mpbu6q36/view">
+                <img src="./assets/images/infosys-spring-logo-removebg-preview.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <h3 class="h3 clients-title">Programming using Java</h3>
+              <a href="https://drive.google.com/file/d/1WlJ5KfRSjXsNAAXxjwKGvPA8L1fytDq3/view">
+                <img src="./assets/images/infosys-spring-logo-removebg-preview.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <h3 class="h3 clients-title">Introduction to Data Science</h3>
+              <a href="https://drive.google.com/file/d/1iTRQ2Swf51JPr-yoJalq75Htp5eXbW0Z/view">
+                <img src="./assets/images/infosys-spring-logo-removebg-preview.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <h3 class="h3 clients-title" style="margin: bottom 10cm;">Arduino Unplugged</h3>
+              <a href="https://drive.google.com/file/d/1t4flt8bosiZOh-7rQMypEa0Nu-OCiX5K/view">
+                <img src="./assets/images/Arduino_Logo.svg.png" alt="client logo">
+              </a>
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
